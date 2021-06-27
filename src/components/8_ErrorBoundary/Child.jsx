@@ -11,14 +11,12 @@ export default class Child extends Component {
     
     }
 
-    demo = () => {
-        test()
-    }
+
     render() {
-        this.demo()
+       
         return (
             <div>
-                I am child
+                I am child 123
                 {
                     this.state.users.map((Obj)=>{
                         return <h4 key={Obj.id}>{Obj.name}-----{Obj.age}</h4>
